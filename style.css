@@ -79,6 +79,10 @@
       margin-bottom: 2rem;
     }
 
+    .emph {
+      font-style: italic;
+    }
+    
     .topics-list {
       list-style-type: square;
       padding-left: 2rem;
@@ -94,6 +98,31 @@
     .section-separator {
       border-top: 1px dashed #ccc;
       margin: 4rem 0;
+    }
+    .subsection-title {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #333;
+      margin: 1.5rem 0 1rem;
+    }
+    
+    .small-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      font-style: italic;
+      color: #444;
+      margin: 1.5rem 0 0.8rem;
+    }
+    
+    .mini-title {
+      font-size: 1.1rem;
+      font-weight: normal;
+      font-style: italic;
+      color: #555;
+      margin: 1.2rem 0 0.5rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.3rem;
+      display: inline-block;
     }
 
     .speakers-grid {
